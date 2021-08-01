@@ -1,0 +1,7 @@
+title=bittboy-msx
+description=MSX
+icon=/mnt/emus/bittboy-msx/bittboy-msx.png
+exec=/mnt/emus/bittboy-msx/bittboy-msx
+clock=702
+selectordir=/mnt/roms/msx
+selectorelement=3

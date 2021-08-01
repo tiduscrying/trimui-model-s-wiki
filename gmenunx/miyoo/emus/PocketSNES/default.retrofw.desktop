@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=PocketSNES
+Comment=SNES/SFC Emulator
+Exec=pocketsnes.dge %f
+Icon=pocketsnes
+Categories=emulators;
+X-OD-Manual=pocketsnes.man.txt
+X-OD-Filter=.zip,.sfc,.smc,.swc
+Terminal=false
+Type=Application
+StartupNotify=true

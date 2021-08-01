@@ -1,0 +1,132 @@
+Graphics::SetResolution(1)
+Setting scaling 1 and fullscreen=no
+ error << NXSurface::SetScale: CONFIG_MUTABLE_SCALE not set >>
+SDL_SetVideoMode: 320x240 @ 16bpp
+Graphics::FlushAll()
+SIFLoader::LoadHeader: read index of 8 sections
+Loading SIF section 1 from address 004d
+Loading SIF section 2 from address 044c
+SIFSpritesSect: loading 490 sprites
+fonts: using bitmapped from smalfont.bmp
+sslib: initilization was successful.
+Loading Sound FX...
+LoadFXCache: restoring pxts from cache
+Calculating pitch scale...
+-- Drums loaded from cache
+tsc_load: loading 'data/Head.tsc' to page 0
+tsc_load: loading 'data/ArmsItem.tsc' to page 2
+tsc_load: loading 'data/StageSelect.tsc' to page 3
+Reading npc.tbl...
+InitList::CallFunctions(00165964): executing 61 functions...
+initslopetable: generating slopetables.
+initmapfirsttime: loading tilekey.dat.
+Setting tick function to type 1 param 0
+Setting tick function to type 6 param 0
+Entering main loop...
+ >> Entering stage 72: 'u'.
+load_map: level size 21x16
+load_map: 'data/Stage/Kings.pxm' loaded OK! - 21x16
+load_pxa: reading in data/Stage/White.pxa
+load_entities: reading in data/Stage/Kings.pxe
+tsc_load: loading 'data/Stage/Kings.tsc' to page 1
+StageBossManager::SetType(0)
+-- Starting on-entry script 100
+  - Started script 0100
+0100:0  002c <KEY 
+0100:1  0032 <MNA 
+0100:2   0050
+0100:5   0001
+0100:8  TEXT  '\n'
+0100:11   0000
+ANP: Obj 005ba440 (OBJ_INTRO_DOCTOR(298)): setting state: 10 and dir: LEFT
+0100:18   0097
+0100:21  TEXT  '\n'
+0100:24   0000
+ANP: Obj 005ba440 (OBJ_INTRO_DOCTOR(298)): setting state: 1 and dir: LEFT
+0100:31   0050
+0100:34  TEXT  '\n'
+0100:37   0000
+ANP: Obj 005ba440 (OBJ_INTRO_DOCTOR(298)): setting state: 20 and dir: LEFT
+0100:44   0064
+0100:47  TEXT  '\n'
+0100:50   0000
+ANP: Obj 005ba440 (OBJ_INTRO_DOCTOR(298)): setting state: 1 and dir: LEFT
+0100:57   0016
+0100:60  TEXT  '\n'
+0100:63   0000
+ANP: Obj 005ba440 (OBJ_INTRO_DOCTOR(298)): setting state: 30 and dir: LEFT
+0100:70   0050
+0100:73  TEXT  '\n'
+0100:76   0000
+ANP: Obj 005ba440 (OBJ_INTRO_DOCTOR(298)): setting state: 40 and dir: LEFT
+0100:83   0097
+0100:86  TEXT  '\n'
+0100:89   0001
+0100:92   9999
+  - Stopped script 0100
+Setting tick function to type 7 param 0
+niku_load: couldn't open file '290.rec'
+ >> music(24)
+ >> Entering stage 0: 'Null'.
+load_map: level size 21x20
+load_map: 'data/Stage/0.pxm' loaded OK! - 21x20
+load_pxa: reading in data/Stage/0.pxa
+load_entities: reading in data/Stage/0.pxe
+tsc_load: loading 'data/Stage/0.tsc' to page 1
+StageBossManager::SetType(0)
+ >> music(0)
+Setting tick function to type 1 param 0
+= Beginning new game =
+ >> Entering stage 13: 'Start Point'.
+load_map: level size 21x16
+load_map: 'data/Stage/Start.pxm' loaded OK! - 21x16
+load_pxa: reading in data/Stage/Cave.pxa
+load_entities: reading in data/Stage/Start.pxe
+tsc_load: loading 'data/Stage/Start.tsc' to page 1
+StageBossManager::SetType(0)
+-- Starting on-entry script 200
+  - Started script 0200
+0200:0  002c <KEY 
+0200:1   0091
+0200:6  003f <PRI 
+0200:7   0000
+0200:10  0039 <MSG 
+0200:11  TEXT  '\nFrom somewhere, a transmission...'
+0200:47  003d <NOD 
+0200:48  0009 <CLO 
+0200:49   0430
+0200:52   0000
+******* Executing <TRA to stage 18
+  - Stopped script 0200
+ >> Entering stage 18: 'Shelter'.
+load_map: level size 21x16
+load_map: 'data/Stage/Shelt.pxm' loaded OK! - 21x16
+load_pxa: reading in data/Stage/Store.pxa
+load_entities: reading in data/Stage/Shelt.pxe
+tsc_load: loading 'data/Stage/Shelt.tsc' to page 1
+StageBossManager::SetType(0)
+-- Starting on-entry script 500
+  - Started script 0500
+0500:0  002c <KEY 
+0500:1   0021
+ >> music(21)
+0500:4   0004
+0500:7  TEXT  '\n'
+0500:10  0039 <MSG 
+0500:11  0053 <TUR 
+0500:12  TEXT  'Connecting to network...'
+0500:38   0050
+0500:41  TEXT  '\n'
+0500:44  0053 <TUR 
+0500:45  TEXT  'Logged on.'
+0500:57   0050
+0500:60  TEXT  '\n'
+0500:63  0053 <TUR 
+0500:64  TEXT  'Executing chat algorithm.'
+0500:91   0100
+0500:94  000a <CLR 
+0500:95  0039 <MSG 
+0500:96  TEXT  'Sue?'
+0500:102  003d <NOD 
+Setting pause: type 8 param 0
+Graphics::Close()

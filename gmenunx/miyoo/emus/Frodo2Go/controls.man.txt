@@ -1,0 +1,12 @@
+Bittboy:
+TA = Fire
+A  = Up/Jump
+
+V90/PocketGo:
+A = Fire
+B = Up/Jump
+
+All:
+R      = Menu
+SELECT = Toggel Joystick port 1/2
+START  = Togggle Keyboard (bottom/top/off)

@@ -1,0 +1,7 @@
+title=crocods
+description=CrocoDS
+icon=/mnt/emus/crocods/crocods.png
+exec=/mnt/emus/crocods/crocods
+clock=702
+selectordir=/mnt/roms/amstrad
+selectorelement=3

@@ -1,0 +1,5 @@
+INTRODUCTION
+------------
+
+CrocoDS emulates Amstrad 8bit home
+computers. 

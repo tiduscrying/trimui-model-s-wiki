@@ -1,0 +1,154 @@
+PocketSNES, Super Nintendo Entertainment System emulator
+
+- Based on Snes9x core version 1.43+SDD1, 2014-08-21 -
+
+== Table of contents ==
+1. The PocketSNES Main Menu
+2. Selecting a ROM
+   a) Returning to the parent directory
+   b) Setting the default ROM path
+3. Playing a game
+4. Settings
+   a) Using per-game settings
+   b) Saved States
+   c) Save SRAM (when Changed)
+   d) Sound (Rate)
+   e) Frameskip
+   f) Full Screen
+   g) Prefer Fluid Audio/Video
+   h) Transparency
+5. Files
+   a) Global configuration
+   b) Default ROM path
+   c) Per-game data
+   d) Per-game configuration
+   e) SRAM data
+   f) Saved states
+6. Credits
+7. Source code
+
+== The PocketSNES Main Menu ==
+After activating the PocketSNES icon, the PocketSNES Main Menu will appear. From there, you can set global settings and save them even before launching your first game, if needed. Once done changing settings, choose the "Save global settings" option and proceed to selecting a ROM.
+
+To re-enter the Main Menu during a game, flick the Power switch upwards, or press the Start and Select buttons at once. (The first button will also be sent to the game before the Main Menu appears.)
+
+== Selecting a ROM ==
+The second option in the menu, "Select ROM", brings up a directory browser. This is PocketSNES's own directory browser; it does not use gmenu2x's settings. You can set its default directory for use during future runs. You can use this directory browser to select a ROM to emulate. It accepts any valid SNES ROM file, headered or not, with copier interleaving or not (though un-interleaved dumps are preferred) and with the extension .sfc, .smc or .fig, or any ZIP archive containing a valid SNES ROM as its first file.
+
+- Returning to the parent directory -
+Pressing B exits the directory browser entirely. To return to the parent directory, use the <..> (two dots) entry near the top of the direcctory browser.
+
+- Setting the default ROM path -
+Once you're in the directory you wish to set as the default ROM path for future runs of PocketSNES, use the "Save default directory" option at the top of the directory browser.
+
+== Playing a game ==
+While playing a game, the default button bindings allow the use of everything on your device that has the same position as on the Super Nintendo Entertainment System controller. Your device's D-pad controls the SNES's D-pad; its A, B, L, R, Start and Select buttons controls the SNES's A, B, L, R, Start and Select buttons.
+
+On the GCW Zero, the X and Y buttons are reversed, controlling the SNES's Y and X buttons, respectively. On the Dingoo A320, the Y and X buttons control the same-named buttons.
+
+Saved data is only written a short period of time after saving in a SNES game's menus if the "Save SRAM when changed" option is enabled, but is always written when exiting the emulator or switching to a different ROM by entering the Main Menu and selecting another. Running out of battery power or the kernel crashing can cause saves not to be written at all. See 'Files' for more information.
+
+== Settings ==
+To properly leave PocketSNES and save all pending SRAM data after emulating a ROM, or to change settings for emulation, you need to enter the PocketSNES Main Menu by pressing both Start and Select.
+
+After changing settings, make sure to use the "Save global settings" or "Save per-game settings" option.
+
+- Using per-game settings -
+To apply certain settings only for the current ROM, change the settings to your desired value, then choose "Save per-game settings". The settings will be reloaded automatically whenever you emulate a ROM with the same name again. Do not choose "Save global settings" afterwards if you do not intend to use the same settings globally. See 'Files' for more information.
+
+- Saved States -
+In this menu you can look at the screenshots taken when you created your saved states for the currently-loaded game (to help you decide which one to load, overwrite or delete), load a state, create one, or delete one. The operations all allow you to choose the saved state slot first. You have 10 slots to choose from. See the 'Files' section for more information.
+
+- Save SRAM -
+The "Save SRAM" option allows you to request immediate saving of the SRAM to a file.
+
+- Save SRAM when Changed -
+The "Save SRAM when changed" option allows you to request saving of the SRAM to a file 1 second after the current game writes to it. In some games which use SRAM to store their level state, such as Kirby Super Star, enabling this option may cause severe slowdowns. If you wish, make a per-game override of this option to disable it in that case.
+
+The default value of this option is ON. Regardless of the value of this option, save RAM is written when properly exiting the emulator with the "Exit PocketSNES" option and when switching to a different ROM.
+
+- Sound -
+Produces or mutes sound. Does not affect the emulation of the SNES APU, but does speed up emulation as a whole if disabled because synthesising the sound can be CPU-expensive.
+
+- Sound Rate -
+Sets the sampling rate of the sound produced by PocketSNES. Higher values mean higher quality at the expense of CPU time.
+
+The default value of this option is 44100 Hz.
+
+- Frameskip -
+"AUTO" skips a frame whenever the previous frame was output late in relation to vertical sync. Manual selections exist up to 5 (10 FPS). Using automatic frameskipping is recommended for battery life, because manual selections cause the CPU to constantly run timing checks.
+
+The default value of this option is AUTO.
+
+- Full Screen -
+"OFF" shows the SNES screen with square pixels (256x224; PAR 1:1, DAR 8:7). "FAST" and "SMOOTH" show the SNES screen scaled up to the resolution of your device (320x240; PAR 7:6, DAR 4:3), with 'SMOOTH' resembling bilinear interpolation performed in software. NTSC TVs on the market at the time the SNES was popular would show the image with a display aspect ratio (DAR) of 4:3, agreeing with the implementation of full-screen scaling on 4:3 devices. 'HARDWARE' leaves scaling up to dedicated hardware on the GCW Zero.
+
+The default value of this option is OFF.
+
+- Prefer Fluid Audio/Video -
+Alters sound synthesis performance. "Video" and "Audio" give priority to fluid video (closest to 60 FPS) or fluid audio (closest to 32000 sound samples per second). "Vid & aud" is a compromise of both.
+
+Giving full priority to video causes sound synthesis to be performed every 16 milliseconds, but some notes shorter than this may be nullified, and the time between any two notes may fluctuate up to 33 milliseconds.
+
+Giving full priority to audio causes sound synthesis to be performed every 0.07 millisecond, but may cause FPS to severely drop.
+
+The compromise is to synthesise sound every 2.9 milliseconds.
+
+The default value of this option is "Vid & aud".
+
+- Transparency -
+Transparency refers to graphical layer effects on the SNES. Emulating them can slow down games, but disabling them can render a game unplayable due to information-carrying backgrounds being missing; some games even render a permanent black screen if transparency is disabled.
+
+The default value of this option is ON.
+
+== Files ==
+
+- Global configuration -
+The global configuration is saved to ~/.snes96_snapshots/pocketsnes_options.opt (where ~ represents $HOME). It is in a binary format which is not easily user-editable.
+
+- Default ROM path -
+The default ROM path is saved separately from the global configuration, at ~/.snes96_snapshots/romdir.opt. It contains the path as text without a newline at the end.
+
+- Per-game data -
+Per-game data files are saved with the name of the file containing the SNES ROM, with their extension replaced. If the SNES ROM was loaded from a ZIP archive, then the data files use the name of the ZIP archive, not the name of the file inside the archive. All files are saved into ~/.snes96_snapshots (where ~ represents $HOME).
+
+- Game preview files -
+PocketSNES can show an image in the background of the directory selector when the selection bar is under a ROM with a certain name. A file in ~/.snes96_snapshots/previews named the same as the ROM is loaded and shown. It must be a PNG file, 24 bits per pixel (RGB 888, no alpha) and be 262 by 186 pixels.
+
+- Per-game configuration -
+The per-game configuration saves overrides made to the defaults for single games. They use the extension 'opt'.
+
+- SRAM data -
+Also known as in-game saves or battery-backed saves, SRAM data files are more portable than saved states, as they are used by the games themselves to reload their state. You can use these files on other Super Nintendo Entertainment System emulators, and use these files from other Super Nintendo Entertainment System emulators in PocketSNES. They use the extension 'srm'.
+
+- Saved states -
+Also known as save states or freeze files, saved state files are specific to an Snes9x version. PocketSNES should be able to read saved states from Snes9x versions 1.39-1.43 on any platform having a port of it. Saved states use the extensions 'sv0' (for slot #0) to 'sv9' (for slot #9).
+
+== Credits ==
+Emulator: anomie, zones, Nach, byuu, Funkyass, Gary, Jerremy, Mkendora, TeleKawaru etc.
+Port credits are in the application itself
+Artwork: hi-ban
+
+== Source code ==
+Find the source code for this particular release of PocketSNES at:
+  https://github.com/Nebuleon/PocketSNES
+The code is licensed under Snes9x's license, which permits personal use, but forbids commercial use. The license text is below:
+
+  Permission to use, copy, modify and distribute Snes9x in both binary and
+  source form, for non-commercial purposes, is hereby granted without fee,
+  providing that this license information and copyright notice appear with
+  all copies and any derived work.
+
+  This software is provided 'as-is', without any express or implied
+  warranty. In no event shall the authors be held liable for any damages
+  arising from the use of this software.
+
+  Snes9x is freeware for PERSONAL USE only. Commercial users should
+  seek permission of the copyright holders first. Commercial use includes
+  charging money for Snes9x or software derived from Snes9x.
+
+  The copyright holders request that bug fixes and improvements to the code
+  should be forwarded to them so everyone can benefit from the modifications
+  in future versions.
+
+The artwork is licensed under the Creative Commons Attribution-ShareAlike 3.0 license.

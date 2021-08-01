@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Gannatsu Portable
+Comment=Puzzle game
+Exec=gnp
+Icon=icon
+Terminal=false
+Categories=games;

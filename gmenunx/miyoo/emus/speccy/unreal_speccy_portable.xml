@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UnrealSpeccyPortable>
+    <Options>
+        <last_file>/mnt/roms/z80/BMBJACK1.Z80</last_file>
+        <joystick>kempston</joystick>
+        <sound_chip>ay</sound_chip>
+        <ay_stereo>mono</ay_stereo>
+        <fast_tape>on</fast_tape>
+        <auto_play_image>on</auto_play_image>
+        <mode_48k>off</mode_48k>
+        <fullscreen>off</fullscreen>
+        <reset_to_s-rom>off</reset_to_s-rom>
+    </Options>
+</UnrealSpeccyPortable>
