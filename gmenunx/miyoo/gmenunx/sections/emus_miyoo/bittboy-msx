@@ -1,0 +1,6 @@
+title=bittboy-msx
+description=MSX Emulator
+exec=/mnt/SDCARD/Apps/emus/bittboy-msx/bittboy-msx
+clock=702
+selectordir=/mnt/SDCARD/roms/msx
+selectorelement=3

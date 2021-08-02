@@ -1,0 +1,7 @@
+title=LYNX
+description=Handy Emulator
+exec=/mnt/SDCARD/Apps/emus/handy/handy
+clock=702
+selectordir=/mnt/SDCARD/roms
+selectorbrowser=true
+selectordir=/mnt/SDCARD/roms/LYNX

@@ -1,0 +1,6 @@
+title=crocods
+description=Amstrad Emulator
+exec=/mnt/SDCARD/Apps/emus/crocods/crocods
+clock=702
+selectordir=/mnt/SDCARD/roms/amstrad
+selectorelement=3

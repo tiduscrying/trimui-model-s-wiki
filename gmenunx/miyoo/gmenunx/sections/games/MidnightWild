@@ -1,0 +1,4 @@
+title=MidnightWild
+description=MidnightWild Arduboy Game
+exec=/mnt/SDCARD/Apps/games/MidnightWild/MidnightWild.sh
+clock=702

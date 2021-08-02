@@ -1,0 +1,7 @@
+title=Speccy!
+description=Speccy Emulator
+exec=/mnt/SDCARD/Apps/emus/speccy/pocketSpeccy
+clock=250
+selectordir=/mnt/SDCARD/roms/z80
+selectorscreens=/mnt/SDCARD/roms/z80/.images
+selectorelement=8

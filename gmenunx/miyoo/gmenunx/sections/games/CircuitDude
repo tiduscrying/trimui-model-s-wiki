@@ -1,0 +1,4 @@
+title=CircuitDude
+description=circuitdude game
+exec=/mnt/SDCARD/Apps/games/CircuitDude/CircuitDude.sh
+clock=702

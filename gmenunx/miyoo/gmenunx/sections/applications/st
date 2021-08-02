@@ -1,0 +1,3 @@
+title=Terminal
+description=ST Terminal Emulator
+exec=/mnt/SDCARD/apps/st/st

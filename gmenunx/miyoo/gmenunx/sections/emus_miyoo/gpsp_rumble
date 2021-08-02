@@ -1,0 +1,5 @@
+title=gpsp(rumble)
+description=gba emulator
+exec=/mnt/SDCARD/Apps/emus/gpsp_rumble/gpsp_rumble.elf
+clock=702
+selectordir=/mnt/SDCARD/roms/gba

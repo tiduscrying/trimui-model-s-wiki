@@ -1,0 +1,6 @@
+title=PICO-8
+description=Fantasy Console
+exec=/mnt/SDCARD/Apps/emus/pico8/pico8.elf
+clock=702
+selectordir=/mnt/SDCARD/ROMS/PICO-8
+selectorelement=3

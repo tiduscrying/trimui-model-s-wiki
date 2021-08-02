@@ -1,0 +1,6 @@
+title=pocketsnes
+description=PocketSNES Emulator
+exec=/mnt/SDCARD/Apps/emus/PocketSNES/PocketSNES
+clock=702
+selectordir=/mnt/SDCARD/roms/SFC
+selectorscreens=/mnt/SDCARD/roms/SFC/.images

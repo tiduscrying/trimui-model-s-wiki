@@ -1,0 +1,5 @@
+title=SNES
+description=SNES9x4d Emulator
+exec=/mnt/SDCARD/Apps/emus/snes9x4d/snes9x4d
+clock=702
+selectordir=/mnt/SDCARD/roms/SNES

@@ -1,0 +1,5 @@
+title=sod
+description=Spear of Destiny
+exec=/mnt/SDCARD/Apps/games/sod/sod
+clock=702
+params=--goodtimes

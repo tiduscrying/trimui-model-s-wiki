@@ -1,0 +1,6 @@
+title=WSWAN
+description= OSwan Emulator
+exec=/mnt/SDCARD/Apps/emus/oswan/oswan.elf
+clock=702
+selectorbrowser=true
+selectordir=/mnt/SDCARD/roms/WSWAN

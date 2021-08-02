@@ -1,0 +1,6 @@
+title=mplayer
+description=Media Player
+exec=/mnt/SDCARD/apps/mplayer/run.sh
+clock=702
+selectordir=/mnt/SDCARD/media
+selectorbrowser=true

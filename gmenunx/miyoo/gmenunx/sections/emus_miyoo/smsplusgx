@@ -1,0 +1,6 @@
+title=SMS/GG
+description=SMS Plus GX Emulator
+exec=/mnt/SDCARD/Apps/emus/smsplusgx/smsplusgx
+clock=702
+selectorbrowser=true
+selectordir=/mnt/SDCARD/roms/SMS

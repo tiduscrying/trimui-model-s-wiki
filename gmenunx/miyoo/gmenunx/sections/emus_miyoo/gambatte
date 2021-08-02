@@ -1,0 +1,6 @@
+title=GAMEBOY
+description=Gambatte Emulator (New)
+exec=/mnt/SDCARD/Apps/emus/gambatte/gambatte
+clock=702
+selectordir=/mnt/SDCARD/roms/GBC
+selectorelement=1

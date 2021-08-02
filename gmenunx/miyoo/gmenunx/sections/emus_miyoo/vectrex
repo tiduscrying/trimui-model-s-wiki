@@ -1,0 +1,5 @@
+title=vectrex
+description=vectrex emulator
+exec=/mnt/SDCARD/Apps/emus/vectrex/vectrex.elf
+clock=702
+selectordir=/mnt/SDCARD/roms/vectrex
