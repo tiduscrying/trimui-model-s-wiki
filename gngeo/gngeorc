@@ -1,0 +1,4 @@
+rompath /mnt/SDCARD/Roms/NEOGEO
+system unibios
+autoframeskip true
+vsync true
