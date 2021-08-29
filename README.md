@@ -34,16 +34,16 @@ This is just a basic Wiki for the Trimui Model S (also known as the PowKiddy A66
     * [Additional Games, Systems and Tools](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/III.-Custom-Launchers-(MinUI-and-GmenuNX)#additional-games-systems-and-tools-1)
 * [IV. Launcher Compatibility Matrix (emulators)](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/IV.-Launcher-compatibility-matrix-(emulators))
 * [V. Additional Tips & Tweaks](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks)
-  * Emulation Enhancements
-    * BIOS Files
-    * GB/GBC borders
-    * GnGeo Skin
-  * Managing device via USB
-    * Enable ADB through MinUI
-    * Enable ADB through GmenuNX
-  * Changing the boot logo
-  * Skinning the stock UI
-  * Using Headphones via USB-C
-  * Upgrading the battery
-  * Larger L & R shoulder buttons
-  * Compatible cases & screen protectors
+  * [Emulation Enhancements](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#emulation-enhancements)
+    * [BIOS Files](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#bios-files)
+    * [GB/GBC borders](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#gameboygameboy-color-enhancements-colorizationborders)
+  * [PicoArch for MinUI & GmenuNX](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#picoarch-retroarch-for-minui--gmenunx)  
+  * [GnGeo Skin](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#custom-gngeo-skin)
+  * [Managing device via USB](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#managing-device-via-usb)
+    * [Enable ADB through MinUI](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#enable-adb-through-minui)
+    * [Enable ADB through GmenuNX](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#enable-adb-through-gmenunx)
+  * [Using Headphones via USB-C](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#using-headphones-via-usb-c)
+  * [Replacing (or Upgrading) the Battery](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#replacing-or-upgrading-the-battery)
+* [VI. Personalization](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/VI.-Personalization)
+  * [Changing the boot logo](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/VI.-Personalization#changing-the-boot-logo)
+  * [Skinning the stock UI](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/VI.-Personalization#skinning-the-stock-ui)
