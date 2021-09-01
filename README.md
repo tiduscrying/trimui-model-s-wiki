@@ -12,6 +12,13 @@ This is just a basic Wiki for the Trimui Model S (also known as the PowKiddy A66
 * OS: Custom Linux OS; Based off [TinaLinux](https://github.com/tinalinux)
 * Avg. Price: $35-40 USD
 
+### FAQs
+* **Q: Are the Trimui Model S and Powkiddy A66 the same?** - A: Pretty much! Powkiddy just bought the device and are making it on their own now. There are little to no changes other than purely cosmetic differences (shell colors, different logo, etc.). 
+* **Q: Can USB C-to-C chargers be used to charge the device?** - A: Yes
+* **Q: Can you plug headphones into the device?** - A: Yes, but with exceptions. It is currently a bit of a guessing game as far as what USB-C to 3.5"mm adapters are or aren't compatible, but two are listed [here](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/V.-Additional-Tips-&-Tweaks#using-headphones-via-usb-c). Do note that there have been reported performance issues while using USB-C headphones. 
+* **Q: Is there still screen tearing on this?** - A: Yes and no. Running the stock launcher and emulators will likely still exhibit some screen tearing, even after some updates from Trimui. Both MinUI and GmenuNX have additional patches in place to remove screen tearing entirely though, so it is recommended to switch to either one.
+* **Q: How is emulator performance?** - A: Most 16-bit consoles will run great with the exception of the Super Nintendo, where some titles require frameskip to be playable. Generally speaking, 2D PS1 games run fine as well, but 3D titles can be a bit more challenging. Refer to the Launcher Compatibility Matrix page for more specific emulator info. 
+* **Q: This is $70 shipped with Amazon Prime. Is that worth it?** - A: Personally? It depends. The actual price usually hits around $35-45 on AliExpress and other cites, so it is really up to personal preference whether or not double the price is worth it for possibly faster shipping and better return policies. 
 
 ### Index
 * [I. Getting Started](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/I.-Getting-Started)
