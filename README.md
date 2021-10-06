@@ -54,3 +54,4 @@ This is just a basic Wiki for the Trimui Model S (also known as the PowKiddy A66
 * [VI. Personalization](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/VI.-Personalization)
   * [Changing the boot logo](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/VI.-Personalization#changing-the-boot-logo)
   * [Skinning the stock UI](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/VI.-Personalization#skinning-the-stock-ui)
+  * [Making a custom text-based bootlogo](https://github.com/tiduscrying/trimui-model-s-wiki/wiki/VI.-Personalization#making-a-custom-text-based-bootlogo)
